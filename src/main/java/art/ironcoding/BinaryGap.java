@@ -6,11 +6,13 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * https://app.codility.com/demo/results/trainingRGMR4Z-2RY/
+ * Find longest sequence of zeros in binary representation of an integer.
+ */
 public class BinaryGap {
 
     public static void main(String[] args) {
-
-        //https://app.codility.com/demo/results/trainingRGMR4Z-2RY/
         System.out.println("solution = " + solution(1041));
     }
 

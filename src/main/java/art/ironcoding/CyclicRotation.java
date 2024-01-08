@@ -1,7 +1,10 @@
 package art.ironcoding;
 
+/**
+ * https://app.codility.com/demo/results/trainingJQJT35-MD5/
+ * Rotate an array to the right by a given number of steps.
+ */
 public class CyclicRotation {
-    // https://app.codility.com/demo/results/trainingJQJT35-MD5/
 
     public static void main(String[] args) {
         //int[] A = {3, 8, 9, 7, 6};
