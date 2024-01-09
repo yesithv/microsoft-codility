@@ -1,4 +1,4 @@
-package art.ironcoding;
+package art.ironcoding.examples;
 
 /**
  * https://app.codility.com/demo/results/trainingJQJT35-MD5/

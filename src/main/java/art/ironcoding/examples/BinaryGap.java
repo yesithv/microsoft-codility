@@ -1,4 +1,4 @@
-package art.ironcoding;
+package art.ironcoding.examples;
 
 
 import java.util.ArrayList;

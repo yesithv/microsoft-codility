@@ -1,10 +1,14 @@
-package art.ironcoding;
+package art.ironcoding.examples;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * https://app.codility.com/demo/results/trainingQKV5G6-8SR/
+ * Find the smallest positive integer that does not occur in a given sequence.
+ */
 public class MissInteger {
     public static void main(String[] args) {
         int[] A = {3, 6, 4, 1, 2};
