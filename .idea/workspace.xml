@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/task/SplitArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/task/StringOfWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/BinaryGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/examples/BinaryGap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/CyclicRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/examples/CyclicRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/MissInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/examples/MissInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +50,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/JaimeYesithValenciaG/Personal/LearningBuilder/microsoft-codility/src/main/java/art/ironcoding/Main.java",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -165,7 +161,8 @@
       <workItem from="1704562570929" duration="3345000" />
       <workItem from="1704627272548" duration="3100000" />
       <workItem from="1704718853609" duration="4909000" />
-      <workItem from="1704755465896" duration="5916000" />
+      <workItem from="1704755465896" duration="5940000" />
+      <workItem from="1706477003521" duration="823000" />
     </task>
     <servers />
   </component>
@@ -182,5 +179,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

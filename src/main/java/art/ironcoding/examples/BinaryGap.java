@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
+ * https://github.com/DavidHerBet/java-codility
  * https://app.codility.com/demo/results/trainingRGMR4Z-2RY/
  * Find longest sequence of zeros in binary representation of an integer.
  */

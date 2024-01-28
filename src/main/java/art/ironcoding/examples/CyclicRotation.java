@@ -1,6 +1,7 @@
 package art.ironcoding.examples;
 
 /**
+ * https://github.com/DavidHerBet/java-codility
  * https://app.codility.com/demo/results/trainingJQJT35-MD5/
  * Rotate an array to the right by a given number of steps.
  */
