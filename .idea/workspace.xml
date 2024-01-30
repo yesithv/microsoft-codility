@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Three recursion examples">
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/OddOccurrencesInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/OddOccurrencesInArrayCheck.java" afterDir="false" />
+    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Add occurrences In Array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/binarytree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/binarytree/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/binarytree/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/examples/BinaryGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/BinaryGap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/examples/CyclicRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/CyclicRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/examples/MissInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/MissInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/examples/PermMissingElem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/PermMissingElem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/examples/PermMissingElemCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/PermMissingElemCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +42,10 @@
     "Application.BinaryGap.executor": "Run",
     "Application.ComputerParts.executor": "Run",
     "Application.CyclicRotation.executor": "Run",
+    "Application.Example.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MissInteger.executor": "Debug",
+    "Application.OddOccurrencesInArrayCheck.executor": "Run",
     "Application.OssOccurrencesInArray.executor": "Run",
     "Application.PermMissingElem.executor": "Run",
     "Application.PermMissingElemCheck.executor": "Run",
@@ -67,7 +65,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OddOccurrencesInArrayCheck">
+  <component name="RunManager" selected="Application.Example">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.binarytree.Example" />
+      <module name="microsoft" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="art.ironcoding.binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OddOccurrencesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.OddOccurrencesInArray" />
       <module name="microsoft" />
@@ -120,19 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.task.SplitArray" />
-      <module name="microsoft" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="art.ironcoding.task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="microsoft-codility" />
       <method v="2">
@@ -148,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example" />
         <item itemvalue="Application.OddOccurrencesInArrayCheck" />
         <item itemvalue="Application.OddOccurrencesInArray" />
         <item itemvalue="Application.PermMissingElemCheck" />
         <item itemvalue="Application.PermMissingElem" />
-        <item itemvalue="Application.SplitArray" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +174,7 @@
       <workItem from="1704718853609" duration="4909000" />
       <workItem from="1704755465896" duration="5940000" />
       <workItem from="1706477003521" duration="8032000" />
-      <workItem from="1706572689812" duration="3870000" />
+      <workItem from="1706572689812" duration="6846000" />
     </task>
     <task id="LOCAL-00001" summary="Add github documentation links">
       <option name="closed" value="true" />
@@ -202,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706485028609</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add occurrences In Array">
+      <option name="closed" value="true" />
+      <created>1706576805891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706576805891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +218,8 @@
     <MESSAGE value="Add github documentation links" />
     <MESSAGE value="Find the missing element in a given permutation." />
     <MESSAGE value="Three recursion examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Three recursion examples" />
+    <MESSAGE value="Add occurrences In Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add occurrences In Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
