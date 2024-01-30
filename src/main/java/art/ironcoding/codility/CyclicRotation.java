@@ -1,4 +1,4 @@
-package art.ironcoding.examples;
+package art.ironcoding.codility;
 
 /**
  * https://github.com/DavidHerBet/java-codility

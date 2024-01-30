@@ -1,4 +1,4 @@
-package art.ironcoding.examples;
+package art.ironcoding.codility;
 
 import java.util.ArrayList;
 import java.util.Arrays;
