@@ -4,6 +4,10 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
+ * Find value that occurs in odd number of elements.
+ */
 public class OddOccurrencesInArrayCheck {
 
     public static void main(String[] args) {

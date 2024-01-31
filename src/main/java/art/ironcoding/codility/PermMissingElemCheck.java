@@ -2,6 +2,10 @@ package art.ironcoding.codility;
 
 import java.util.Arrays;
 
+/**
+ * https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/
+ * Find the missing element in a given permutation.
+ */
 public class PermMissingElemCheck {
 
     public static void main(String[] args) {
