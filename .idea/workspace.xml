@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Binary Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/TapeEquilibrium.java" afterDir="false" />
+    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Tape Equilibrium">
+      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/TapeEquilibriumCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/OddOccurrencesInArrayCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/OddOccurrencesInArrayCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/PermMissingElemCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/PermMissingElemCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,7 @@
     "Application.SplitArray.executor": "Run",
     "Application.StringOfWords.executor": "Run",
     "Application.TapeEquilibrium.executor": "Run",
+    "Application.TapeEquilibriumCheck.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -66,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TapeEquilibrium">
+  <component name="RunManager" selected="Application.TapeEquilibriumCheck">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="art.ironcoding.binarytree.Example" />
       <module name="microsoft" />
@@ -106,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermMissingElemCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.PermMissingElemCheck" />
+    <configuration name="TapeEquilibrium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.TapeEquilibrium" />
       <module name="microsoft" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TapeEquilibrium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.TapeEquilibrium" />
+    <configuration name="TapeEquilibriumCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.TapeEquilibriumCheck" />
       <module name="microsoft" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TapeEquilibriumCheck" />
         <item itemvalue="Application.TapeEquilibrium" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.OddOccurrencesInArrayCheck" />
         <item itemvalue="Application.OddOccurrencesInArray" />
-        <item itemvalue="Application.PermMissingElemCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +177,7 @@
       <workItem from="1706572689812" duration="7605000" />
       <workItem from="1706634137290" duration="2147000" />
       <workItem from="1706637197158" duration="3413000" />
-      <workItem from="1706739970218" duration="2760000" />
+      <workItem from="1706739970218" duration="5062000" />
     </task>
     <task id="LOCAL-00001" summary="Add github documentation links">
       <option name="closed" value="true" />
@@ -220,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706580289078</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tape Equilibrium">
+      <option name="closed" value="true" />
+      <created>1706743964126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706743964126</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +239,8 @@
     <MESSAGE value="Three recursion examples" />
     <MESSAGE value="Add occurrences In Array" />
     <MESSAGE value="Binary Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Tree" />
+    <MESSAGE value="Tape Equilibrium" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tape Equilibrium" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
