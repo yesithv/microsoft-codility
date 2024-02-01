@@ -17,18 +17,9 @@ public class TapeEquilibrium {
 
     public static int solution(int[] A) {
 
-        // Some validations
-        if (A == null || A.length < 2 || A.length > 100000) {
-            System.out.println("Please input and non empty array");
-            return 0;
-        }
-
         Integer minimalDifference = Integer.MAX_VALUE;
         for (int i = 0; i < A.length - 1; i++) {
 
-            if (A[i] < -1000 || A[i] > 1000) {
-                System.out.println("The element: " + A[i] + " must be in 2 and 100000");
-            }
             //System.out.println("------- i = " + i + " ---------------");
             int leftDifference = 0;
             for (int l = 0; l <= i; l++) {
