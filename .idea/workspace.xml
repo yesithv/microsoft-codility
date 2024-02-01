@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Tape Equilibrium">
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/TapeEquilibriumCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Tape Equilibrium Check" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +174,7 @@
       <workItem from="1706572689812" duration="7605000" />
       <workItem from="1706634137290" duration="2147000" />
       <workItem from="1706637197158" duration="3413000" />
-      <workItem from="1706739970218" duration="5062000" />
+      <workItem from="1706739970218" duration="5562000" />
     </task>
     <task id="LOCAL-00001" summary="Add github documentation links">
       <option name="closed" value="true" />
@@ -227,7 +224,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706743964126</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tape Equilibrium Check">
+      <option name="closed" value="true" />
+      <created>1706746023982</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706746023982</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Tape Equilibrium Check">
+      <option name="closed" value="true" />
+      <created>1706746090276</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706746090276</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +253,8 @@
     <MESSAGE value="Add occurrences In Array" />
     <MESSAGE value="Binary Tree" />
     <MESSAGE value="Tape Equilibrium" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tape Equilibrium" />
+    <MESSAGE value="Tape Equilibrium Check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tape Equilibrium Check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
