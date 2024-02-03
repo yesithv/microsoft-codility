@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Tape Equilibrium Check">
+    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Organice Project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson1Iterations/BinaryGapVerified.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/TapeEquilibriumCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/TapeEquilibriumCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson1Iterations/BinaryGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson1Iterations/BinaryGap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,43 +36,44 @@
     <option name="showLibraryContents" value="true" />
     <option name="showURL" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BinaryGap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComputerParts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CyclicRotation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MissInteger.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.OddOccurrencesInArrayCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OssOccurrencesInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PermMissingElem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PermMissingElemCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SplitArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringOfWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TapeEquilibrium.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TapeEquilibriumCheck.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/JaimeYesithValenciaG/Personal/LearningBuilder/microsoft-codility/src/main/java/art/ironcoding/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BinaryGap.executor": "Run",
+    "Application.BinaryGapVerified.executor": "Run",
+    "Application.ComputerParts.executor": "Run",
+    "Application.CyclicRotation.executor": "Run",
+    "Application.Example.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MissInteger.executor": "Debug",
+    "Application.OddOccurrencesInArrayCheck.executor": "Run",
+    "Application.OssOccurrencesInArray.executor": "Run",
+    "Application.PermMissingElem.executor": "Run",
+    "Application.PermMissingElemCheck.executor": "Run",
+    "Application.SplitArray.executor": "Run",
+    "Application.StringOfWords.executor": "Run",
+    "Application.TapeEquilibrium.executor": "Run",
+    "Application.TapeEquilibriumCheck.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/JaimeYesithValenciaG/Personal/LearningBuilder/microsoft-codility/src/main/java/art/ironcoding/Main.java",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.TapeEquilibriumCheck">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.binarytree.Example" />
+}]]></component>
+  <component name="RunManager" selected="Application.BinaryGapVerified">
+    <configuration name="BinaryGapVerified" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson1Iterations.BinaryGapVerified" />
       <module name="microsoft" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="art.ironcoding.binarytree.*" />
+          <option name="PATTERN" value="art.ironcoding.codility.lesson1Iterations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddOccurrencesInArrayCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson2Arrays.OddOccurrencesInArrayCheck" />
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.binarytree.Example" />
       <module name="microsoft" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="art.ironcoding.codility.lesson1Iterations.*" />
+          <option name="PATTERN" value="art.ironcoding.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryGapVerified" />
         <item itemvalue="Application.TapeEquilibriumCheck" />
         <item itemvalue="Application.PermMissingElemCheck" />
         <item itemvalue="Application.TapeEquilibrium" />
         <item itemvalue="Application.Example" />
-        <item itemvalue="Application.OddOccurrencesInArrayCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +182,7 @@
       <workItem from="1706739970218" duration="5842000" />
       <workItem from="1706823232284" duration="602000" />
       <workItem from="1706965978234" duration="1128000" />
+      <workItem from="1706974759755" duration="2950000" />
     </task>
     <task id="LOCAL-00001" summary="Add github documentation links">
       <option name="closed" value="true" />
@@ -253,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706746368061</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Organice Project">
+      <option name="closed" value="true" />
+      <created>1706975007485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706975007485</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,13 +278,14 @@
     <MESSAGE value="Binary Tree" />
     <MESSAGE value="Tape Equilibrium" />
     <MESSAGE value="Tape Equilibrium Check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tape Equilibrium Check" />
+    <MESSAGE value="Organice Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organice Project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/art/ironcoding/codility/MissInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson4CountingElements/MissInteger.java</url>
           <line>21</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
