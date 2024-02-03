@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Organice Project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson1Iterations/BinaryGapVerified.java" afterDir="false" />
+    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Binary Gap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson1Iterations/BinaryGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson1Iterations/BinaryGap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson1Iterations/BinaryGapVerified.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson1Iterations/BinaryGapVerified.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/OddOccurrencesInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/OddOccurrencesInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/OddOccurrencesInArrayCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/OddOccurrencesInArrayCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +183,7 @@
       <workItem from="1706739970218" duration="5842000" />
       <workItem from="1706823232284" duration="602000" />
       <workItem from="1706965978234" duration="1128000" />
-      <workItem from="1706974759755" duration="2950000" />
+      <workItem from="1706974759755" duration="3740000" />
     </task>
     <task id="LOCAL-00001" summary="Add github documentation links">
       <option name="closed" value="true" />
@@ -264,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706975007485</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Binary Gap">
+      <option name="closed" value="true" />
+      <created>1706977821578</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706977821578</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +288,8 @@
     <MESSAGE value="Tape Equilibrium" />
     <MESSAGE value="Tape Equilibrium Check" />
     <MESSAGE value="Organice Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organice Project" />
+    <MESSAGE value="Binary Gap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Gap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

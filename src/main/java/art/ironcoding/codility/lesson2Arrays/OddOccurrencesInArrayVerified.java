@@ -5,10 +5,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
+ * https://github.com/DavidHerBet/java-codility?tab=readme-ov-file
+ * https://app.codility.com/demo/results/trainingDYWMVE-T8R/
  * Find value that occurs in odd number of elements.
  */
-public class OddOccurrencesInArrayCheck {
+public class OddOccurrencesInArrayVerified {
 
     public static void main(String[] args) {
         int[] A = {9, 3, 9, 3, 9, 7, 9}; // return 7

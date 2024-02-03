@@ -3,6 +3,10 @@ package art.ironcoding.codility.lesson2Arrays;
 import java.util.Arrays;
 import java.util.HashMap;
 
+/**
+ * https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
+ * Find value that occurs in odd number of elements.
+ */
 public class OddOccurrencesInArray {
 
     public static void main(String[] args) {
@@ -30,7 +34,7 @@ public class OddOccurrencesInArray {
                 .filter(entry -> entry.getValue().equals(1))
                 .findAny();
 
-        if (optionalResponse.isPresent()){
+        if (optionalResponse.isPresent()) {
             var entry = optionalResponse.get();
             response = entry.getKey();
         }

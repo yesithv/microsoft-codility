@@ -3,14 +3,13 @@ package art.ironcoding.codility.lesson1Iterations;
 /**
  * https://github.com/DavidHerBet/java-codility
  * https://app.codility.com/demo/results/trainingRGMR4Z-2RY/
- * https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
  * Find longest sequence of zeros in binary representation of an integer.
  */
 public class BinaryGapVerified {
 
     public static void main(String[] args) {
         // int N = 20; // b=10100 return=1
-         int N = 15; // b=1111 return 0
+        int N = 15; // b=1111 return 0
         // int N = 32; // b=100000 return 0
         //int N = 9; // b=1001 return=2
         //int N = 529; // b=1000010001 return=4
