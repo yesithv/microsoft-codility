@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Fix documentation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/CyclicRotationVerified.java" afterDir="false" />
+    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="CyclicRotation Fixed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson4CountingElements/MissIntegerVerified.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/CyclicRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/CyclicRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson4CountingElements/MissInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson4CountingElements/MissInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,7 @@
     "Application.Example.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MissInteger.executor": "Debug",
+    "Application.MissIntegerVerified.executor": "Run",
     "Application.OddOccurrencesInArrayCheck.executor": "Run",
     "Application.OssOccurrencesInArray.executor": "Run",
     "Application.PermMissingElem.executor": "Run",
@@ -64,11 +65,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/JaimeYesithValenciaG/Personal/LearningBuilder/microsoft-codility/src/main/java/art/ironcoding/Main.java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CyclicRotationVerified">
+  <component name="RunManager" selected="Application.MissIntegerVerified">
     <configuration name="BinaryGapVerified" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson1Iterations.BinaryGapVerified" />
       <module name="microsoft" />
@@ -95,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermMissingElemCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson3TimeComplexity.PermMissingElemCheck" />
+    <configuration name="MissIntegerVerified" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson4CountingElements.MissIntegerVerified" />
       <module name="microsoft" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="art.ironcoding.codility.lesson1Iterations.*" />
+          <option name="PATTERN" value="art.ironcoding.codility.lesson4CountingElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TapeEquilibrium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson3TimeComplexity.TapeEquilibrium" />
+    <configuration name="PermMissingElemCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson3TimeComplexity.PermMissingElemCheck" />
       <module name="microsoft" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissIntegerVerified" />
         <item itemvalue="Application.CyclicRotationVerified" />
         <item itemvalue="Application.BinaryGapVerified" />
         <item itemvalue="Application.TapeEquilibriumCheck" />
         <item itemvalue="Application.PermMissingElemCheck" />
-        <item itemvalue="Application.TapeEquilibrium" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +184,7 @@
       <workItem from="1706739970218" duration="5842000" />
       <workItem from="1706823232284" duration="602000" />
       <workItem from="1706965978234" duration="1128000" />
-      <workItem from="1706974759755" duration="5463000" />
+      <workItem from="1706974759755" duration="8402000" />
     </task>
     <task id="LOCAL-00001" summary="Add github documentation links">
       <option name="closed" value="true" />
@@ -281,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706978694176</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="CyclicRotation Fixed">
+      <option name="closed" value="true" />
+      <created>1706980545177</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706980545177</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,18 +307,8 @@
     <MESSAGE value="Organice Project" />
     <MESSAGE value="Binary Gap" />
     <MESSAGE value="Fix documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix documentation" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson4CountingElements/MissInteger.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="CyclicRotation Fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="CyclicRotation Fixed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

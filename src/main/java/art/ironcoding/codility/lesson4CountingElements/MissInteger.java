@@ -6,8 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * https://github.com/DavidHerBet/java-codility
- * https://app.codility.com/demo/results/trainingQKV5G6-8SR/
+ * https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
  * Find the smallest positive integer that does not occur in a given sequence.
  */
 public class MissInteger {
