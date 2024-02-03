@@ -1,8 +1,7 @@
 package art.ironcoding.codility.lesson2Arrays;
 
 /**
- * https://github.com/DavidHerBet/java-codility
- * https://app.codility.com/demo/results/trainingJQJT35-MD5/
+ * https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
  * Rotate an array to the right by a given number of steps.
  */
 public class CyclicRotation {

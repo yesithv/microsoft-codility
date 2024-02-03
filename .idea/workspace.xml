@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Binary Gap">
+    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Fix documentation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/CyclicRotationVerified.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson1Iterations/BinaryGapVerified.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson1Iterations/BinaryGapVerified.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/OddOccurrencesInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/OddOccurrencesInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/OddOccurrencesInArrayCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/OddOccurrencesInArrayCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/CyclicRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson2Arrays/CyclicRotation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,7 @@
     "Application.BinaryGapVerified.executor": "Run",
     "Application.ComputerParts.executor": "Run",
     "Application.CyclicRotation.executor": "Run",
+    "Application.CyclicRotationVerified.executor": "Run",
     "Application.Example.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MissInteger.executor": "Debug",
@@ -68,7 +68,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BinaryGapVerified">
+  <component name="RunManager" selected="Application.CyclicRotationVerified">
     <configuration name="BinaryGapVerified" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson1Iterations.BinaryGapVerified" />
       <module name="microsoft" />
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.binarytree.Example" />
+    <configuration name="CyclicRotationVerified" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson2Arrays.CyclicRotationVerified" />
       <module name="microsoft" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="art.ironcoding.binarytree.*" />
+          <option name="PATTERN" value="art.ironcoding.codility.lesson2Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicRotationVerified" />
         <item itemvalue="Application.BinaryGapVerified" />
         <item itemvalue="Application.TapeEquilibriumCheck" />
         <item itemvalue="Application.PermMissingElemCheck" />
         <item itemvalue="Application.TapeEquilibrium" />
-        <item itemvalue="Application.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +183,7 @@
       <workItem from="1706739970218" duration="5842000" />
       <workItem from="1706823232284" duration="602000" />
       <workItem from="1706965978234" duration="1128000" />
-      <workItem from="1706974759755" duration="3740000" />
+      <workItem from="1706974759755" duration="5463000" />
     </task>
     <task id="LOCAL-00001" summary="Add github documentation links">
       <option name="closed" value="true" />
@@ -273,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706977821578</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix documentation">
+      <option name="closed" value="true" />
+      <created>1706978694176</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706978694176</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +297,8 @@
     <MESSAGE value="Tape Equilibrium Check" />
     <MESSAGE value="Organice Project" />
     <MESSAGE value="Binary Gap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Gap" />
+    <MESSAGE value="Fix documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix documentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
