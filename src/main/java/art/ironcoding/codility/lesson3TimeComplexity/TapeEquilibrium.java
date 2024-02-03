@@ -1,4 +1,4 @@
-package art.ironcoding.codility;
+package art.ironcoding.codility.lesson3TimeComplexity;
 
 import java.util.Arrays;
 import java.util.stream.Stream;

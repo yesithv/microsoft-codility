@@ -1,4 +1,4 @@
-package art.ironcoding.codility;
+package art.ironcoding.codility.lesson1Iterations;
 
 
 import java.util.ArrayList;
@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 /**
  * https://github.com/DavidHerBet/java-codility
  * https://app.codility.com/demo/results/trainingRGMR4Z-2RY/
+ * https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
  * Find longest sequence of zeros in binary representation of an integer.
  */
 public class BinaryGap {

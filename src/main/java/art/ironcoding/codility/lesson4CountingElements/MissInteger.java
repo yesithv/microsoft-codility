@@ -1,4 +1,4 @@
-package art.ironcoding.codility;
+package art.ironcoding.codility.lesson4CountingElements;
 
 import java.util.ArrayList;
 import java.util.Arrays;

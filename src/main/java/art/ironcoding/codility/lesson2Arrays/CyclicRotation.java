@@ -1,4 +1,4 @@
-package art.ironcoding.codility;
+package art.ironcoding.codility.lesson2Arrays;
 
 /**
  * https://github.com/DavidHerBet/java-codility

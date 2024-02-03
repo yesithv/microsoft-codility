@@ -1,7 +1,11 @@
-package art.ironcoding.codility;
+package art.ironcoding.codility.lesson3TimeComplexity;
 
 import java.util.Arrays;
 
+/*
+ * https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
+ * Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
+ */
 public class TapeEquilibriumCheck {
     public static void main(String[] args) {
         int[] A = {3, 1, 2, 4, 3}; // Should return 1
