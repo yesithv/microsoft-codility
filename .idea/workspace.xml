@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="CyclicRotation Fixed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson4CountingElements/MissIntegerVerified.java" afterDir="false" />
+    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Miss integer verified">
+      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson4CountingElements/MaxCounters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson4CountingElements/MissInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson4CountingElements/MissInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
     "Application.CyclicRotationVerified.executor": "Run",
     "Application.Example.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaxCounters.executor": "Run",
     "Application.MissInteger.executor": "Debug",
     "Application.MissIntegerVerified.executor": "Run",
     "Application.OddOccurrencesInArrayCheck.executor": "Run",
@@ -69,7 +69,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MissIntegerVerified">
+  <component name="RunManager" selected="Application.MaxCounters">
     <configuration name="BinaryGapVerified" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson1Iterations.BinaryGapVerified" />
       <module name="microsoft" />
@@ -96,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissIntegerVerified" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson4CountingElements.MissIntegerVerified" />
+    <configuration name="MaxCounters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson4CountingElements.MaxCounters" />
       <module name="microsoft" />
       <extension name="coverage">
         <pattern>
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermMissingElemCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson3TimeComplexity.PermMissingElemCheck" />
+    <configuration name="MissIntegerVerified" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson4CountingElements.MissIntegerVerified" />
       <module name="microsoft" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="art.ironcoding.codility.lesson1Iterations.*" />
+          <option name="PATTERN" value="art.ironcoding.codility.lesson4CountingElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxCounters" />
         <item itemvalue="Application.MissIntegerVerified" />
         <item itemvalue="Application.CyclicRotationVerified" />
         <item itemvalue="Application.BinaryGapVerified" />
         <item itemvalue="Application.TapeEquilibriumCheck" />
-        <item itemvalue="Application.PermMissingElemCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +184,8 @@
       <workItem from="1706739970218" duration="5842000" />
       <workItem from="1706823232284" duration="602000" />
       <workItem from="1706965978234" duration="1128000" />
-      <workItem from="1706974759755" duration="8402000" />
+      <workItem from="1706974759755" duration="9184000" />
+      <workItem from="1707169289607" duration="2351000" />
     </task>
     <task id="LOCAL-00001" summary="Add github documentation links">
       <option name="closed" value="true" />
@@ -290,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706980545177</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Miss integer verified">
+      <option name="closed" value="true" />
+      <created>1706983279972</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706983279972</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +317,8 @@
     <MESSAGE value="Binary Gap" />
     <MESSAGE value="Fix documentation" />
     <MESSAGE value="CyclicRotation Fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="CyclicRotation Fixed" />
+    <MESSAGE value="Miss integer verified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Miss integer verified" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
