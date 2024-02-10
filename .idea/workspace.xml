@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Arrays . sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson6Sorting/NumberOfDiscIntersectionsVerified.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson7StacksAndQueues/Brackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/queues/QueuesBasicExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/queues/StackBasicExamples.java" afterDir="false" />
+    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Brackets">
+      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson7StacksAndQueues/Fish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson6Sorting/MaxProductOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson6Sorting/MaxProductOfThreeVerified.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +45,7 @@
     "Application.CyclicRotationVerified.executor": "Run",
     "Application.Distinct.executor": "Run",
     "Application.Example.executor": "Run",
+    "Application.Fish.executor": "Run",
     "Application.GenomicRangeQuery.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaxCounters.executor": "Run",
@@ -81,7 +77,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Brackets">
+  <component name="RunManager" selected="Application.Fish">
     <configuration name="Brackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson7StacksAndQueues.Brackets" />
       <module name="microsoft" />
@@ -95,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProductOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson6Sorting.MaxProductOfThree" />
+    <configuration name="Fish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson7StacksAndQueues.Fish" />
       <module name="microsoft" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="art.ironcoding.codility.lesson6Sorting.*" />
+          <option name="PATTERN" value="art.ironcoding.codility.lesson7StacksAndQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fish" />
         <item itemvalue="Application.Brackets" />
         <item itemvalue="Application.StackBasicExamples" />
         <item itemvalue="Application.QueuesBasicExample" />
         <item itemvalue="Application.NumberOfDiscIntersectionsVerified" />
-        <item itemvalue="Application.MaxProductOfThree" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +195,8 @@
       <workItem from="1706974759755" duration="9184000" />
       <workItem from="1707169289607" duration="6277000" />
       <workItem from="1707256506881" duration="4359000" />
-      <workItem from="1707430336268" duration="6614000" />
+      <workItem from="1707430336268" duration="7247000" />
+      <workItem from="1707577664964" duration="2990000" />
     </task>
     <task id="LOCAL-00001" summary="Add github documentation links">
       <option name="closed" value="true" />
@@ -345,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707260357435</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Brackets">
+      <option name="closed" value="true" />
+      <created>1707440412834</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1707440412835</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +373,19 @@
     <MESSAGE value="Genomic Rangue query" />
     <MESSAGE value="Distinct Set" />
     <MESSAGE value="Arrays . sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays . sort" />
+    <MESSAGE value="Brackets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Brackets" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson7StacksAndQueues/Fish.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
