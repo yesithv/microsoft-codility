@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Stack fish river">
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson8Leader/Dominator.java" afterDir="false" />
+    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Dominator Hash Map">
+      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson8Leader/EquiLeader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
     "Application.CyclicRotationVerified.executor": "Run",
     "Application.Distinct.executor": "Run",
     "Application.Dominator.executor": "Run",
+    "Application.EquiLeader.executor": "Run",
     "Application.Example.executor": "Run",
     "Application.Fish.executor": "Run",
     "Application.GenomicRangeQuery.executor": "Run",
@@ -74,11 +75,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/JaimeYesithValenciaG/Personal/LearningBuilder/microsoft-codility/src/main/java/art/ironcoding/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Dominator">
+  <component name="RunManager" selected="Application.EquiLeader">
     <configuration name="Brackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson7StacksAndQueues.Brackets" />
       <module name="microsoft" />
@@ -94,6 +95,19 @@
     </configuration>
     <configuration name="Dominator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson8Leader.Dominator" />
+      <module name="microsoft" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="art.ironcoding.codility.lesson8Leader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EquiLeader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson8Leader.EquiLeader" />
       <module name="microsoft" />
       <extension name="coverage">
         <pattern>
@@ -131,19 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackBasicExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.queues.StackBasicExamples" />
-      <module name="microsoft" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="art.ironcoding.queues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="microsoft-codility" />
       <method v="2">
@@ -159,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EquiLeader" />
         <item itemvalue="Application.Dominator" />
         <item itemvalue="Application.QueuesBasicExample" />
         <item itemvalue="Application.Fish" />
         <item itemvalue="Application.Brackets" />
-        <item itemvalue="Application.StackBasicExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +199,9 @@
       <workItem from="1707256506881" duration="4359000" />
       <workItem from="1707430336268" duration="7247000" />
       <workItem from="1707577664964" duration="3939000" />
-      <workItem from="1707787040650" duration="3566000" />
+      <workItem from="1707787040650" duration="3747000" />
+      <workItem from="1707863238413" duration="62000" />
+      <workItem from="1707863812987" duration="3950000" />
     </task>
     <task id="LOCAL-00001" summary="Add github documentation links">
       <option name="closed" value="true" />
@@ -360,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707582339509</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Dominator Hash Map">
+      <option name="closed" value="true" />
+      <created>1707790629418</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1707790629419</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +396,8 @@
     <MESSAGE value="Arrays . sort" />
     <MESSAGE value="Brackets" />
     <MESSAGE value="Stack fish river" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack fish river" />
+    <MESSAGE value="Dominator Hash Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dominator Hash Map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
