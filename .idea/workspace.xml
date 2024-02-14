@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Dominator Hash Map">
-      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson8Leader/EquiLeader.java" afterDir="false" />
+    <list default="true" id="e4e5aa26-1201-4fed-a7be-58aa5d53762f" name="Changes" comment="Max profit: Count inside loop, but to create inside another loop">
+      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson9MaximunSliceProblem/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/art/ironcoding/codility/lesson9MaximunSliceProblem/MaxProfitVerified.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +53,8 @@
     "Application.Main.executor": "Run",
     "Application.MaxCounters.executor": "Run",
     "Application.MaxProductOfThree.executor": "Run",
+    "Application.MaxProfit.executor": "Run",
+    "Application.MaxProfitVerified.executor": "Run",
     "Application.MissInteger.executor": "Debug",
     "Application.MissIntegerVerified.executor": "Run",
     "Application.NumberOfDiscIntersections.executor": "Run",
@@ -79,20 +82,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EquiLeader">
-    <configuration name="Brackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson7StacksAndQueues.Brackets" />
-      <module name="microsoft" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="art.ironcoding.codility.lesson7StacksAndQueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaxProfitVerified">
     <configuration name="Dominator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson8Leader.Dominator" />
       <module name="microsoft" />
@@ -119,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson7StacksAndQueues.Fish" />
+    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson9MaximunSliceProblem.MaxProfit" />
       <module name="microsoft" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="art.ironcoding.codility.lesson7StacksAndQueues.*" />
+          <option name="PATTERN" value="art.ironcoding.codility.lesson9MaximunSliceProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxProfitVerified" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="art.ironcoding.codility.lesson9MaximunSliceProblem.MaxProfitVerified" />
+      <module name="microsoft" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="art.ironcoding.codility.lesson9MaximunSliceProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxProfitVerified" />
+        <item itemvalue="Application.MaxProfit" />
         <item itemvalue="Application.EquiLeader" />
         <item itemvalue="Application.Dominator" />
         <item itemvalue="Application.QueuesBasicExample" />
-        <item itemvalue="Application.Fish" />
-        <item itemvalue="Application.Brackets" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +204,7 @@
       <workItem from="1707577664964" duration="3939000" />
       <workItem from="1707787040650" duration="3747000" />
       <workItem from="1707863238413" duration="62000" />
-      <workItem from="1707863812987" duration="3950000" />
+      <workItem from="1707863812987" duration="8832000" />
     </task>
     <task id="LOCAL-00001" summary="Add github documentation links">
       <option name="closed" value="true" />
@@ -371,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707790629419</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Equileader Hash Map">
+      <option name="closed" value="true" />
+      <created>1707868278329</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1707868278329</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +408,9 @@
     <MESSAGE value="Brackets" />
     <MESSAGE value="Stack fish river" />
     <MESSAGE value="Dominator Hash Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dominator Hash Map" />
+    <MESSAGE value="Equileader Hash Map" />
+    <MESSAGE value="Max profit: Count inside loop, but to create inside another loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Max profit: Count inside loop, but to create inside another loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
